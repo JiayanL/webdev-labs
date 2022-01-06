@@ -10,14 +10,16 @@ body {
 Add some style blocks below this line to style the card.
 */
 section {
-    border-style: solid;
+    border: solid 1px #CCC;
     padding-bottom: 10px;
     width: 50%;
 }
 
-section * {
-    margin-left: 10px;;
+section h2, section p, section button{
+    margin-left: 20px;
+    margin-right: 20px;
 }
-img {
-    width: 30%;
+
+section img {
+    width: 100%;
 }
